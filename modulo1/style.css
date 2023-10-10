@@ -1,0 +1,15 @@
+:root{
+        
+    --color_white: #fff;
+    --color_dark1: #272727;
+    --color_dark2: #2d2d2d;
+    --color_dark3: #414141;
+    --color_dark4: #1c1c1c;
+    --color_dark5: #343434;
+  }
+
+.cabecalho{
+    background-color: var(--color_dark2);
+    box-shadow: 1px 1px 4px var(--color_dark4);
+    height: 70px;
+}

@@ -30,6 +30,7 @@ header,
 
 .tabelas{
     width: 100%;
+    color: var(--color_dark4);
 }
 .cabecalho{
     height: 100px;
@@ -55,6 +56,10 @@ header,
     height: 100px;
 }
 
+tfoot{
+    background-color: var(--color_dark4);
+    height: 20px;
+}
 footer{
     height: 40px;
     width: 100%;

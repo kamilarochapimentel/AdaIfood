@@ -1,0 +1,92 @@
+
+:root{
+        
+    --color_white: #fff;
+    --color_red: #ff001B;
+    --color_dark4: #1c1c1c;
+    --color_grey:#6d6d6d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header,
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu a{
+   
+   text-decoration: none;
+   color: var(--color_white);
+   font-weight: bold;
+}
+
+
+.tabelas{
+    width: 100%;
+}
+.cabecalho{
+    height: 100px;
+    background-color: var(--color_red);
+    color: var(--color_white);
+    box-shadow: 1px 1px 4px var(--color_dark4);
+    
+    width:100%;
+    padding: 0 10%;
+
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+.imag_Ifood{
+    height: 45px;
+}
+
+.tamImag{
+    height: 100px;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: var(--color_grey);
+    color: var(--color_white);
+    font-weight: bold;
+    font-size: 12px;
+
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  
+}
+
+.titulo{
+    font-size: 12px;
+}
+
+.dias{
+    font-weight: bold;
+    text-align: center;
+}
+
+.AjusteT{
+    width: 105px;
+}
+
+.alinhar{
+    justify-content: left;
+
+}

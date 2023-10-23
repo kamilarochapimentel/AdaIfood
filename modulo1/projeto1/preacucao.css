@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
+
+:root{  
+    --color_white: #F6F5F1;
+    --color_dark1: #000209;
+    --color_dark2: #1c1c1c;
+    --color_brown: #351E20;
+    --color_red:#B31622;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Merriweather', serif;
+    /* cursor: grab; */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .bem-vindo{
+    height: 30px;
+    background-color: var(--color_brown);
+    color:var(--color_white);
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+ }
+
+ #texto-chamada{
+    margin: auto; 
+}
+
+.cabecallho_1{
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: var(--color_dark1); */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px var(--color_dark2);
+}
+
+#logo-cabecalho{
+    height: 90px;
+    margin: auto;
+} 
+
+#links-principais{
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color_white);
+    padding-left: 2em;
+    font-size: 18px;
+    letter-spacing: 3px;
+}

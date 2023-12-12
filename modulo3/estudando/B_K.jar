@@ -1,0 +1,21 @@
+public class Mensagem {
+
+    private String nome1;
+    private String nome2;
+
+
+    public Mensagem(String nome1, String nome2) {
+        this.nome1 = nome1;
+        this.nome2 = nome2;
+    }
+
+    public String obterMensagem() {
+        return this.nome1 + " <3 " + this.nome2;
+    }
+
+
+    public static void main(String[] args) {
+        Mensagem mensagem2 = new Mensagem("Bruno", "Kamila");
+        System.out.println(mensagem2.obterMensagem());
+    }
+}
